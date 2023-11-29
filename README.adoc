@@ -1,4 +1,7 @@
-= RedHat Scholars UI
+= An Antora theme for Red Hat One
+
+Based on link:{url-project}[RedHat Scholars UI]
+
 // Settings:
 :experimental:
 :hide-uri-scheme:

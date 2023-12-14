@@ -13,3 +13,17 @@ footer.footer {
 .footer a {
   color: var(--footer-link-font-color);
 }
+
+.footer .poweredBy {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  padding: 12px 32px;
+}
+
+.footer .poweredBy p {
+  font-size: 14px;
+}

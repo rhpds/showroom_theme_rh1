@@ -41,9 +41,9 @@
   --navbar-button-border-color: var(--panel-border-color);
   --navbar-button-font-color: #fff;
   --navbar-menu-border-color: var(--panel-border-color);
-  --navbar-menu-background: var(--color-white);
+  --navbar-menu-background: #036;
   --navbar-menu-font-color: #fff;
-  --navbar-menu_hover-background: var(--color-smoke-50);
+  --navbar-menu_hover-background: #036;
   /* nav */
   --nav-background: var(--panel-background);
   --nav-border-color: var(--color-gray-10);

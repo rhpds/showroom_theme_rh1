@@ -270,7 +270,6 @@ body {
 .navbar .button {
   display: inline-flex;
   align-items: center;
-  background: var(--navbar-button-background);
   border: 1px solid var(--navbar-button-border-color);
   border-radius: 0.15rem;
   height: 1.75rem;

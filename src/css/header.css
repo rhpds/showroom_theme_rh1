@@ -62,6 +62,16 @@ body {
   height: var(--navbar-height);
 }
 
+.site-title {
+  text-overflow: ellipsis;
+  word-break: break-all;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1;
+  display: block;
+  margin: auto 0;
+}
 .navbar-burger {
   color: var(--navbar-font-color);
   background: none;
@@ -159,6 +169,9 @@ body {
 }
 
 @media screen and (max-width: 1023px) {
+  .navbar-brand {
+    max-width: 50%;
+  }
   .navbar-brand .navbar-item {
     align-items: center;
     display: flex;

@@ -68,8 +68,8 @@ body {
   min-width: 0;
   white-space: nowrap;
   overflow: hidden;
-  flex: 1;
-  display: block;
+  flex: 1 !important;
+  display: block !important;
   margin: auto 0;
 }
 
@@ -170,10 +170,6 @@ body {
 }
 
 @media screen and (max-width: 1023px) {
-  .navbar-brand {
-    max-width: 50%;
-  }
-
   .navbar-brand .navbar-item {
     align-items: center;
     display: flex;
@@ -203,6 +199,11 @@ body {
   .navbar-end {
     align-items: stretch;
     display: flex;
+  }
+
+  .navbar-brand {
+    max-width: 50%;
+    width: 100%;
   }
 
   .navbar-burger {
